@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right ,blue,red);
+    opacity: 0.7;
+    
+}
+.div2{
+    background-color:#00b4d8;
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    left: 650px;
+     top: 300px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.div3{
+    background-color:aliceblue ;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 50px;
+    left: 100px;
+    border-radius: 10px;
+}
+h1{
+    font-family: "rubik",'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00b4d8;
+    margin-top: 20px;
+    margin-left:20px ;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    width: 350px;
+    padding: 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:1px solid gray
+}
+input[type=password]{
+    width: 350px;
+    padding: 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:1px solid gray
+}
+.login{
+    width: 350px;
+    padding: 10px 15px;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #0077b6;
+}
+p{
+    color: white;
+    font-family: "rubik",'Times New Roman', Times, serif;
+    text-align: center;
+}
+.login:hover{
+    cursor: pointer;
+    background-color:blue;
+
+
+}
+
